@@ -6,8 +6,9 @@ public class SampleProject {
 		String c = "Hello World!";
 		return c;
 	}
-	public static float add(int a,int b) {
-		float c = a+b;
+	public static int add(int a,int b) {
+		int c =0;
+		c=a+b;
 		return c;
 	}
 	public static void main(String args[]) {
